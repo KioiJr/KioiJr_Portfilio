@@ -4,6 +4,7 @@ const Header = () => {
   return (
     <div className='header-wrapper'>
         <div className='main-info' id='homepage'>
+           
             <div>
              <ReactTyped
             className='main-typed-text'
@@ -20,7 +21,7 @@ const Header = () => {
             backSpeed = {60}
             loop 
              /> 
-            < a href='#' className='btn-main-offer'>contact me
+            < a href='#contact' className='btn-main-offer'>contact me
             </a>
         </div>
     </div>

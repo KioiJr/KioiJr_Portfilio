@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Navbar from './components/Navbar';
 import Header from './Components/Header';
 import Body from './Components/Body';
-import Experience from './Components/Experience';
 import Projects from './Components/Projects';
 import Contacts from './Components/Contacts';
 
@@ -19,7 +18,6 @@ function App() {
       <Header/>
       <Body/>
       <Projects/>
-      <Experience/>
       <Contacts/>
     </>
   );
