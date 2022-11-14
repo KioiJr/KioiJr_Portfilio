@@ -1,9 +1,7 @@
 import React from 'react'
-import logo from "../KosoTechLogo.jpg"
-
-// import react fonts
+import logo from "../KosoTechLogo.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDesktop } from '@fortawesome/free-solid-svg-icons';
+import { faDesktop} from '@fortawesome/free-solid-svg-icons';
 
 
 const Navbar = () => {
@@ -15,7 +13,7 @@ const Navbar = () => {
         
 </a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-     <FontAwesomeIcon icon = {faDesktop}/>
+     <FontAwesomeIcon icon = {faDesktop }/>
     </button>
   
         <div className="collapse navbar-collapse" id="navbarSupportedContent">

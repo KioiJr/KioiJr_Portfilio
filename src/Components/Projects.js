@@ -4,6 +4,7 @@ import hosp from "../Hospital.png"
 import cal from "../Calculator.png"
 import Login from "../Login.png"
 import Registration from "../RegForm.jpg"
+import Andromeda from "../Andromeda.png"
 
 
 const Projects = () => {
@@ -38,6 +39,16 @@ const Projects = () => {
                                 <h6 className="card-title">Login Form</h6>
                             </div>
                             <img src={Login} className="card-img-top" alt=""/>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6 col-12 pb-5">
+                        <div className="card">
+                            
+                            <div className="card-body">
+                                <h6 className="card-title"> Movie Place</h6>
+                            </div>
+                            <img src={Andromeda} className="card-img-top" alt=""/>
                         </div>
                     </div>
         

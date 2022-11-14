@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "../KosoTechLogo.jpg"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDesktop } from '@fortawesome/free-solid-svg-icons';
@@ -9,7 +10,7 @@ const Navbar = () => {
 <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         
     <div className='container'>
-<a className="navbar-brand" href="#homepage"><img className='logo' src={''} alt="logo..." />
+<a className="navbar-brand" href="#homepage"><img className='logo' src={logo} alt="logo..." />
         
 </a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

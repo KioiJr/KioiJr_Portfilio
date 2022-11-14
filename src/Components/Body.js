@@ -9,7 +9,7 @@ const Body = () => {
             <hr class="w-50 mx-auto pb-5"></hr>
           <div className='row'>
             <div class="col-lg-6">
-              <img src={profile} className='img-row-fluid rounded-circle' alt='Profile picture'/>
+              <img src={profile} className='img-row-fluid rounded-circle' alt=''/>
             </div>
 
             <div class="col-lg-6">

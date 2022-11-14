@@ -10,7 +10,7 @@ const Contacts = () => {
 			<div class="contact-section">
 			<div class="container">
 				<form>
-					<div class="col-md-6 form-line">
+					<div class="col-6 form-line">
 			  			<div class="form-group">
 			  				<label for="exampleInputUsername">Your name</label>
 					    	<input type="text" class="form-control" id="" placeholder=" Enter Name"/>
@@ -24,7 +24,7 @@ const Contacts = () => {
 					    	<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no."/>
 			  			</div>
 			  		</div>
-			  		<div class="col-md-6">
+			  		<div class="col-6">
 			  			<div class="form-group">
 			  				<label for ="description"> Message</label>
 			  			 	<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
@@ -34,7 +34,7 @@ const Contacts = () => {
 			  				{/* <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
 			  			</div> */}
               <div className="nav-item">
-                  <a className="submit" href="">Send</a>
+                  <a className="submit" href="/">Send</a>
                 </div>
 			  			</div>
 					</div>
