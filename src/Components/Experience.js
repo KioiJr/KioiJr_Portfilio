@@ -10,6 +10,7 @@ const Experience = () => {
                         <div className="card">
                             <div className="card-body">
                                 <h6 className="card-title"> Diani Reef Beach Resort and Spa</h6>
+                                <h6> January - April 2021</h6>
                             </div>
                             <img src={''} className="card-img-top" alt=""/>
                         </div>
