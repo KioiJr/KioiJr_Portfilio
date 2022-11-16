@@ -6,10 +6,10 @@
   --primary-red: #ef4035;
 }
 ::selection{
-  color: aquamarine;
+  color: hsl(120, 93%, 49%);
 }
 ::-webkit-scrollbar{
-  width: 10px;
+  width:5px;
 }
 ::-webkit-scrollbar-track{
   background: #f1f1f1;
@@ -18,7 +18,7 @@
   background: #1a1a1a;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: aqua;
+  background: orange;
 }
 /* Navbar */
 .nav{
@@ -26,7 +26,7 @@
 }
 body{
   margin: 1rem;
-  padding: 1rem;
+  padding: 0.4rem;
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -35,6 +35,7 @@ body{
   }
 
 .logo{
+  position: relative;
   width: 3rem;
   height: 3rem;
 }
@@ -45,12 +46,14 @@ body{
 
 nav a.nav-link{
   font-weight: normal;
-  letter-spacing: 0.6px;
+  letter-spacing: 3px;
+  padding-left: 1rem;
   cursor: pointer;
   font-family: Helvetica;
+
 }
 nav ul li{
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .navbar-nav li a{
   color: var(--primary);
@@ -60,9 +63,6 @@ nav ul li{
   border-top: 2px solid orange;
   border-bottom: 2px solid orange;
   color: aqua;
- }
- faDesktop{
-  color: #fff;
  }
 
  /* Header */
@@ -142,10 +142,10 @@ margin: 10px;
   margin-top: 2rem;
   font-family: Helvetica; 
 
-  color: orange;
+  color: hsl(120, 93%, 49%);
 }
 .post-heading h3{
-  color: orange; 
+  color: hsl(120, 93%, 49%); 
   font-size: 2rem;
   font-weight: bold;
 }
@@ -153,7 +153,7 @@ margin: 10px;
 /*Contact sectiom*/
 .content-header{
   font-family: 'Oleo Script', cursive;
-  color:#fcc500;
+  color:hsl(120, 93%, 49%);
   font-size: 45px;
 }
 
@@ -168,17 +168,17 @@ margin: 10px;
   width: 100%;
   width: 100vw;
   height: 700px;
-  background: #3a6186; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #3a6186; fallback for old browsers */
+  /* background: -webkit-linear-gradient(to left, #3a6186 , #89253e); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to left, #3a6186 , #89253e); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #fff;    
 }
 .contact-section{
-  padding-top: 40px;
+  padding-top: 25px;
 }
-.contact-section .col-md-6{
-  width: 50%;
-}
+/* .contact-section .col-md-6{
+  width: 75%;
+} */
 
 /* .form-line{
   border-right: 1px solid #B29999;
@@ -186,6 +186,8 @@ margin: 10px;
 
 .form-group{
   margin-top: 10px;
+  justify-content: center;
+  align-items: center;
 }
 label{
   font-size: 1.3em;
@@ -197,7 +199,8 @@ label{
   color: #080808;
 }
 textarea.form-control {
-    height: 75px;
+  align-items: center;
+    height: 30px;
 }
 
 .submit {
@@ -212,8 +215,44 @@ textarea.form-control {
 .submit:hover{
   color: bisque;
 }
-.card h6{
- color: #000;
+ .row .card{
+  border: 1px solid #31e49f;
+}
+.card img{
+  border-radius: 5px;
+}
+.card h5{
+ color: #fafafa;
  font-weight: bold;
  text-transform: uppercase;
+}
+
+.h6{
+  font-weight: 300;
+  font-family: Helvetica;
+}
+.card-body{
+  background: rgb(46, 35, 35);
+  border: #31e49f;
+  border-radius: 5px;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: hsla(145, 93%, 48%, 0.623);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  text-decoration: none;
+}
+.footer a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.footer p{
+  color: #000;
 }

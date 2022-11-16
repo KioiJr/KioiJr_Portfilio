@@ -13,7 +13,7 @@ const Navbar = () => {
         
 </a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-     <FontAwesomeIcon icon = {faDesktop }/>
+     <FontAwesomeIcon icon = {faDesktop } color ='green'/>
     </button>
   
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -22,22 +22,23 @@ const Navbar = () => {
                   <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#about">About Me</a>
+                  <a className="nav-link" href="#about">About</a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#experience">experience</a>
-                </li>
+
                 <li className="nav-item">
                   <a className="nav-link" href="#project">projects</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact">contact me</a>
+                  <a className="nav-link" href="#contact">contact</a>
                 </li>
             </ul>
           </div>
  </div>
 </nav>
+
+
   )
+  
 }
 
 export default Navbar
