@@ -5,7 +5,7 @@ import {faPaperPlane} from '@fortawesome/free-solid-svg-icons';
 const Contacts = () => {
   return (
     <div id='contact'>
-      	<div class="section-content">
+      	<div className="post-heading text-center">
 				{/* <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch</span></h1> */}
 				<h3>Leave me a message!</h3>
 				<hr className="w-75 mx-auto pb-5"/>
